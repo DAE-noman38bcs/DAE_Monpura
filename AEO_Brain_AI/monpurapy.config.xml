@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config engine="MonpuraPy" version="0.1.0">
+    <office>উপজেলা কৃষি অফিস, মনপুরা, ভোলা</office>
+    <description>মনপুরা কৃষি অফিস Python-ভিত্তিক এনালাইসিস ও অটোমেশন ইঞ্জিন</description>
+    <endpoints>
+        <endpoint name="ping" method="GET" path="/api/monpurapy/ping"/>
+        <endpoint name="infer" method="POST" path="/api/monpurapy/infer"/>
+        <endpoint name="report" method="POST" path="/api/monpurapy/report"/>
+    </endpoints>
+    <logging level="INFO" path="logs/monpurapy.log"/>
+</config>

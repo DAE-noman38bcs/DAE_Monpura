@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<title>MonpuraPy Dashboard</title>
+<link rel="stylesheet" href="assets/monpurapy.style.css">
+</head>
+<body>
+  <header class="monpurapy-header monpurapy-header--dark monpurapy-header--sticky u-flex u-flex-between u-px-4 u-py-2">
+    <h1 class="monpurapy-title u-text-lg u-font-bold">MonpuraPy Brain AI</h1>
+  </header>
+  <main class="monpurapy-main u-container u-grid u-grid-cols-2 u-gap-4 u-mt-4">
+    <section class="monpurapy-card monpurapy-card--engine u-p-3 u-rounded u-shadow-sm">
+      <h2 class="u-text-sm u-text-muted">Engine Status</h2>
+      <p id="status" class="u-text-xl">initializing…</p>
+    </section>
+    <section class="monpurapy-card monpurapy-card--log u-p-3 u-rounded u-shadow-sm">
+      <h2 class="u-text-sm u-text-muted">Recent Log</h2>
+      <pre id="log" class="u-text-xs"></pre>
+    </section>
+  </main>
+  <script src="src/monpurapy.widget.js"></script>
+</body>
+</html>
