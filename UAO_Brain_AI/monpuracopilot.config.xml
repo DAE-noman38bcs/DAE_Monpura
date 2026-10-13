@@ -1,0 +1,18 @@
+<!--
+  Developer: Mahmud Abdullah Al Naman (মাহমুদ আব্দুল্লাহ আল নোমান)
+  Email: noman38bcs@gmail.com
+  Phone: 01623015273
+  File: monpuracopilot.config.xml
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<config engine="MonpuraCopilot" version="0.1.0">
+    <developer name="Mahmud Abdullah Al Naman (মাহমুদ আব্দুল্লাহ আল নোমান)" email="noman38bcs@gmail.com" phone="01623015273"/>
+    <office>উপজেলা কৃষি অফিস, মনপুরা, ভোলা</office>
+    <description>মনপুরা অফিসের কোড/রিপোর্ট সহকারী</description>
+    <endpoints>
+        <endpoint name="ping" method="GET" path="/api/monpuracopilot/ping"/>
+        <endpoint name="infer" method="POST" path="/api/monpuracopilot/infer"/>
+        <endpoint name="report" method="POST" path="/api/monpuracopilot/report"/>
+    </endpoints>
+    <logging level="INFO" path="logs/monpuracopilot.log"/>
+</config>
