@@ -1,0 +1,31 @@
+<!--
+  Developer: Mahmud Abdullah Al Naman (মাহমুদ আব্দুল্লাহ আল নোমান)
+  Email: noman38bcs@gmail.com
+  Phone: 01623015273
+  File: index.html
+-->
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<title>MonpuraGrok Dashboard</title>
+<link rel="stylesheet" href="assets/monpuragrok.style.css">
+</head>
+<body>
+  <header class="monpuragrok-header monpuragrok-header--dark monpuragrok-header--sticky u-flex u-flex-between u-px-4 u-py-2">
+    <h1 class="monpuragrok-title u-text-lg u-font-bold">MonpuraGrok</h1>
+  </header>
+  <main class="monpuragrok-main u-container u-grid u-grid-cols-2 u-gap-4 u-mt-4">
+    <section class="monpuragrok-card monpuragrok-card--engine u-p-3 u-rounded u-shadow-sm">
+      <h2 class="u-text-sm u-text-muted">Engine Status</h2>
+      <p id="status" class="u-text-xl">initializing…</p>
+    </section>
+    <section class="monpuragrok-card monpuragrok-card--log u-p-3 u-rounded u-shadow-sm">
+      <h2 class="u-text-sm u-text-muted">Recent Log</h2>
+      <pre id="log" class="u-text-xs"></pre>
+    </section>
+  </main>
+  <footer class="u-text-xs u-text-muted u-p-3">Developer: Mahmud Abdullah Al Naman (মাহমুদ আব্দুল্লাহ আল নোমান) | noman38bcs@gmail.com | 01623015273</footer>
+  <script src="src/monpuragrok.widget.js"></script>
+</body>
+</html>
