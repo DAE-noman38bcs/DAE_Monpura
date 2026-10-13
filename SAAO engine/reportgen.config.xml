@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config engine="ReportGen" version="0.1.0">
+    <office>উপজেলা কৃষি অফিস, মনপুরা, ভোলা</office>
+    <description>ফসল উৎপাদন ও প্রদর্শনী প্রতিবেদন জেনারেটর</description>
+    <endpoints>
+        <endpoint name="ping" method="GET" path="/api/reportgen/ping"/>
+        <endpoint name="infer" method="POST" path="/api/reportgen/infer"/>
+        <endpoint name="report" method="POST" path="/api/reportgen/report"/>
+    </endpoints>
+    <logging level="INFO" path="logs/reportgen.log"/>
+</config>

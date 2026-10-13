@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<title>ReportGen Dashboard</title>
+<link rel="stylesheet" href="assets/reportgen.style.css">
+</head>
+<body>
+  <header class="reportgen-header reportgen-header--dark reportgen-header--sticky u-flex u-flex-between u-px-4 u-py-2">
+    <h1 class="reportgen-title u-text-lg u-font-bold">ReportGen Brain AI</h1>
+  </header>
+  <main class="reportgen-main u-container u-grid u-grid-cols-2 u-gap-4 u-mt-4">
+    <section class="reportgen-card reportgen-card--engine u-p-3 u-rounded u-shadow-sm">
+      <h2 class="u-text-sm u-text-muted">Engine Status</h2>
+      <p id="status" class="u-text-xl">initializing…</p>
+    </section>
+    <section class="reportgen-card reportgen-card--log u-p-3 u-rounded u-shadow-sm">
+      <h2 class="u-text-sm u-text-muted">Recent Log</h2>
+      <pre id="log" class="u-text-xs"></pre>
+    </section>
+  </main>
+  <script src="src/reportgen.widget.js"></script>
+</body>
+</html>
