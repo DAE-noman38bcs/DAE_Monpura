@@ -1,6 +1,6 @@
 <!-- Developer: Mahmud Abdullah Al Naman (মাহমুদ আব্দুল্লাহ আল নোমান) | noman38bcs@gmail.com | 01623015273 -->
 
-# MonpuraGrok
+# Monpura_Grok
 
 মনপুরা রিয়েল-টাইম কৃষি তথ্য এজেন্ট
 
